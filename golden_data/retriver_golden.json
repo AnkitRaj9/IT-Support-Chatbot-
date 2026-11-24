@@ -1,0 +1,62 @@
+[
+  {
+    "id": "g001",
+    "query": "How do I connect to the VPN when I am working from outside the office?",
+    "ideal_answer": "Employees working outside the office must use the company VPN before accessing internal systems. Install the NovaSecure VPN client from the internal Software Portal, sign in with your company email and password, complete MFA, and select the closest corporate gateway.",
+    "source": "company_it_handbook.md | VPN Access"
+  },
+  {
+    "id": "g002",
+    "query": "my vpn is not connecting, what should i try?",
+    "ideal_answer": "First confirm that you have internet connectivity, restart the VPN client, and try another corporate gateway. Do not disable endpoint security or firewall settings to make the VPN work. If the problem remains, open an IT ticket with a screenshot of the error.",
+    "source": "company_it_handbook.md | VPN Access"
+  },
+  {
+    "id": "g003",
+    "query": "What are the password rules and how do I reset my password?",
+    "ideal_answer": "Company passwords must be at least 14 characters. Employees should use the self-service identity portal for normal password resets. If self-service recovery fails, contact the IT Service Desk. Employees must never share passwords or MFA codes with support personnel.",
+    "source": "company_it_handbook.md | Password Reset Policy"
+  },
+  {
+    "id": "g004",
+    "query": "mera account lock ho gaya hai, kitne wrong attempts ke baad hota hai aur ab kya karu?",
+    "ideal_answer": "After five failed login attempts, the account may be temporarily locked. You should try the self-service identity portal for recovery, and if self-service recovery fails, contact the IT Service Desk.",
+    "source": "company_it_handbook.md | Password Reset Policy"
+  },
+  {
+    "id": "g005",
+    "query": "Which MFA methods are approved and where is MFA required?",
+    "ideal_answer": "MFA is mandatory for email, VPN, cloud administration, and other protected company systems. The approved methods are the company authenticator app and registered hardware security keys. SMS should only be used when it is explicitly enabled as a recovery method.",
+    "source": "company_it_handbook.md | Multi-Factor Authentication"
+  },
+  {
+    "id": "g006",
+    "query": "Can I install software that is not listed in the company portal?",
+    "ideal_answer": "Employees should install business software only from the company Software Portal. Requests for software that is not listed in the portal require manager approval and an IT security review. Administrator access is not granted simply to install unapproved applications.",
+    "source": "company_it_handbook.md | Software Installation"
+  },
+  {
+    "id": "g007",
+    "query": "What should I do if my company laptop is lost or stolen?",
+    "ideal_answer": "Immediately report it to the IT Service Desk and your manager. Provide the device asset tag if available and the last known location. IT will initiate device lock/wipe procedures and coordinate with Security. Do not attempt to remotely recover the device yourself.",
+    "source": "company_it_handbook.md | Lost or Stolen Laptop"
+  },
+  {
+    "id": "g008",
+    "query": "How should the service desk troubleshoot a user who cannot send or receive email?",
+    "ideal_answer": "First confirm whether the issue affects one user or many users, and check network connectivity and the service status dashboard. For a single user, sign out and back in, verify the mailbox quota, and test the web client. For widespread incidents, do not ask each user to reinstall software; escalate the suspected service incident.",
+    "source": "service_desk_runbook.md | Email Troubleshooting"
+  },
+  {
+    "id": "g009",
+    "query": "What checks should be done for a slow laptop and when should it be escalated?",
+    "ideal_answer": "Check CPU, memory, storage free space, startup applications, operating system updates, and endpoint security scan status. Do not disable security agents as a troubleshooting shortcut. Escalate when hardware diagnostics report failure or repeated shutdowns continue after software remediation.",
+    "source": "service_desk_runbook.md | Laptop Performance"
+  },
+  {
+    "id": "g010",
+    "query": "What do P1, P2, P3 and P4 mean in ticket priority?",
+    "ideal_answer": "P1 is a company-wide outage or critical security incident. P2 is a major team blocked with no workaround. P3 is an individual user blocked or degraded with a limited workaround. P4 is a standard request, information request, or low-impact issue.",
+    "source": "service_desk_runbook.md | Ticket Priority"
+  }
+]
